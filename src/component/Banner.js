@@ -25,7 +25,7 @@ function HeroSection() {
   };
 
   return (
-    <div className="bg-gray-200 py-12 px-8">
+    <div className="bg-gray-200 py-8 px-8">
       <div className="container mx-auto flex items-center justify-between">
         {/* Carousel */}
         <div className="w-full md:w-1/2 relative" style={carouselStyle}>
