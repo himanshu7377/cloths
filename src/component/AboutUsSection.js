@@ -6,7 +6,7 @@ import InfiniteLogoCarousel from "./LogoCarousel";
 
 function AboutUsSection() {
   return (
-    <section className="py-12 px-8">
+    <section className="py-12 px-8 bg-green-100" id="aboutussection">
       {/* Mission Statement */}
       <div className="mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 text-center">
@@ -87,7 +87,7 @@ function AboutUsSection() {
       </div>
 
       {/* What We Do */}
-        <div className="bg-orange-300">
+        <div className="bg-green-100">
       <div className="p-4">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800  mb-4 text-center">
           What We Do

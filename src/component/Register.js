@@ -19,7 +19,7 @@ function Register() {
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log(formData)
-    console.log("login successfulls")
+    console.log("register successfulls")
     navigate('/login');
     
    

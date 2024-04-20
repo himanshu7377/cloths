@@ -23,7 +23,7 @@ const InfiniteLogoCarousel = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    pauseOnHover: true,
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -47,7 +47,7 @@ const InfiniteLogoCarousel = () => {
   };
 
   return (
-    <div className="bg-white py-4">
+    <div className=" py-4 bg-white">
       <Slider {...settings}>
         <div className="logo-container">
           <img src={puma} alt="Logo 1" className="w-full h-[150px]" />

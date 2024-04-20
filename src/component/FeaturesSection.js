@@ -5,7 +5,7 @@ import bg from '../assets/bg.jpg';
 
 function FeaturesSection() {
   return (
-    <section className="relative bg-green-100 py-4 px-8">
+    <section className="relative bg-green-100 py-4 px-8" id='ourservicesection'>
       {/* <img src={bg} alt='bg' className='absolute inset-0 w-full h-full object-fill opacity-90'/> */}
       <div className="container mx-auto relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8 text-center">Our Services</h2>

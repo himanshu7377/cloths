@@ -1,10 +1,12 @@
 import React from "react";
 import login from '../assets/login.jpg'
-
+import { useNavigate } from 'react-router-dom'; 
 function Login() {
+    const navigate = useNavigate();
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log("login ");
+        navigate('/')
     };
 
     return (
